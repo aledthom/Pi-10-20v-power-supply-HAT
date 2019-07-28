@@ -1,0 +1,35 @@
+Source:	/home/aled/kicad/pipoweruhat/pipoweruhat.sch
+Date:	Fri 19 Jul 2019 23:51:19 BST
+Tool:	Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1
+Component Count:	30
+Ref	Value	Part	Footprint	Description	Vendor
+BT1	Battery_Cell	Device:Battery_Cell		Single-cell battery	
+C91	C	Device:C		Unpolarized capacitor	
+C5V1	220uF	Device:CP		Polarized capacitor	
+C12V1	680uF	Device:CP		Polarized capacitor	
+D1	1N5824	Device:D_Schottky		Schottky diode	
+D2	D	Device:D		Diode	
+External_Switch_opt1	SW_SPST	Switch:SW_SPST		Single Pole Single Throw (SPST) switch	
+H1	MountingHole	Mechanical:MountingHole	lib:MountingHole_2.7mm_M2.5_uHAT_RPi	Mounting Hole without connection	
+H2	MountingHole	Mechanical:MountingHole	lib:MountingHole_2.7mm_M2.5_uHAT_RPi	Mounting Hole without connection	
+H3	MountingHole	Mechanical:MountingHole	lib:MountingHole_2.7mm_M2.5_uHAT_RPi	Mounting Hole without connection	
+H4	MountingHole	Mechanical:MountingHole	lib:MountingHole_2.7mm_M2.5_uHAT_RPi	Mounting Hole without connection	
+J1	GPIO_CONNECTOR	Connector_Generic:Conn_02x20_Odd_Even	lib:PinSocket_2x20_P2.54mm_Vertical_Centered_Anchor	Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)	
+J2	car battery connection	Connector:Screw_Terminal_01x03		Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)	
+L1	33mH	pspice:INDUCTOR		Capacitor symbol for simulation only	
+R1	10k	Device:R		Resistor	
+R2	10k	Device:R		Resistor	
+R3	R	Device:R		Resistor	
+R4	10k	Device:R		Resistor	
+R5	R	Device:R		Resistor	
+R91	3.9k	Device:R		Resistor	
+R92	3.9k	Device:R		Resistor	
+R93	1k	Device:R		Resistor	
+U1	LM2596S-5	Regulator_Switching:LM2596S-5	Package_TO_SOT_SMD:TO-263-5_TabPin3	5V 3A Step-Down Voltage Regulator, TO-263	
+U3	PIC10F200-IOT	MCU_Microchip_PIC10:PIC10F200-IOT	Package_TO_SOT_SMD:SOT-23-6	256W Flash, 16B SRAM, SOT-23-6	
+U4	CPC1017N	Relay_SolidState:CPC1017N	Package_SO:SOP-4_3.8x4.1mm_P2.54mm	Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4	
+U5	DS1307Z+	Timer_RTC:DS1307Z+	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, SOIC-8	
+U9	CAT24C128	Memory_EEPROM:CAT24C128		128 kb CMOS Serial EEPROM, SOIC-8/TSSOP-8/DFN-8	
+U2A1	ILD74	Isolator:ILD74		Dual Optocoupler, NPN Phototransistor Output, TTL compatible, DIP8/SMD8	
+WRITE_EN1	TestPoint_2Pole	Connector:TestPoint_2Pole		2-polar test point	
+X1	MC-306	Device:Crystal	Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering	Two pin crystal	
